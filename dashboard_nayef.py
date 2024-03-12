@@ -7,10 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1ShkS_HE5Ur9s5_skuKerC0OOSex1xcJ-
 """
 
-!pip install streamlit
-
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile dashboard_nayef.py
+# 
 # import streamlit as st
 # import pandas as pd
 # import plotly.express as px
