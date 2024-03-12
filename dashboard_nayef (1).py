@@ -7,10 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1ShkS_HE5Ur9s5_skuKerC0OOSex1xcJ-
 """
 
-!pip install streamlit
-
-import streamlit as st
 import pandas as pd
+import streamlit as st
 import plotly.express as px
 import types
 
@@ -89,4 +87,3 @@ else:
     fig.update_layout(xaxis_title='Hari Libur (0: Tidak, 1: Ya)', yaxis_title='Rata-rata Jumlah Sewa Sepeda')
     fig.update_xaxes(tickvals=[0, 1], ticktext=['Hari Kerja', 'Akhir Pekan'])
     st.plotly_chart(fig)
-
